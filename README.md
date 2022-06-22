@@ -65,7 +65,7 @@ git remote -v
 
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = sujithmannarkkad@gmail.com
-2. HEROKU_API_KEY = 40c5a4e1-1b3d-4715-a529-2166d117a82d
+2. HEROKU_API_KEY = <id>
 3. HEROKU_APP_NAME = ml-ci-cd
 
 BUILD DOCKER IMAGE
