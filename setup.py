@@ -1,15 +1,16 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
-#Declaring variables for setup
-PROJECT_NAME="HOUSING-PREDICTOR"
-VERSION="0.0.1"
-AUTHOR="SUJITHMANNARKKAD@GMAIL.COM"
-DESCRIPTION="This is first end to end project using CI-CD"
-PACKAGES=["housing"]
-REQUIREMENT_FILE_NAME="requirements.txt"
+# Declaring variables for setup
+PROJECT_NAME = "HOUSING-PREDICTOR"
+VERSION = "0.0.2"
+AUTHOR = "SUJITHMANNARKKAD@GMAIL.COM"
+DESCRIPTION = "This is first end to end project using CI-CD"
+PACKAGES = ["housing"]  # folder name of the project
+REQUIREMENT_FILE_NAME = "requirements.txt"
 
-def get_requirements_lists()->List[str]:
+
+def get_requirements_lists() -> List[str]:
     """
     read data from requirements.txt and return the details as a List
     :return: List of values in requirements.txt as list
@@ -24,7 +25,6 @@ setup(
     author=AUTHOR,
     author_email=AUTHOR,
     description=DESCRIPTION,
-    packages=PACKAGES,
+    packages=find_packages(),  # PACKAGES
     install_requires=get_requirements_lists()
 )
-
