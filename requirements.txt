@@ -1,5 +1,7 @@
-Flask
+Flask~=2.1.2
 gunicorn
 sklearn
 pandas
 numpy
+PyYAML~=6.0
+setuptools~=57.0.0
