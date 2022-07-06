@@ -1,7 +1,9 @@
 Flask~=2.1.2
 gunicorn
-sklearn
-pandas
-numpy
+sklearn~=0.0
+pandas~=1.4.2
+numpy~=1.23.0
 PyYAML~=6.0
 setuptools~=57.0.0
+six~=1.16.0
+scikit-learn~=1.1.1
