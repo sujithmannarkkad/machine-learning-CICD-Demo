@@ -1,11 +1,10 @@
-Flask~=2.1.2
+numpy
+Flask
 gunicorn
-sklearn~=0.0
+sklearn
 pandas
-numpy~=1.23.0
 PyYAML
-setuptools~=57.0.0
-six~=1.16.0
-scikit-learn~=1.1.1
 evidently
 dill
+matplotlib
+-e .
