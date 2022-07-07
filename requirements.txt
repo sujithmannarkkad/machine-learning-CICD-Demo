@@ -1,7 +1,7 @@
 Flask~=2.1.2
 gunicorn
 sklearn~=0.0
-pandas~=1.4.2
+pandas
 numpy~=1.23.0
 PyYAML
 setuptools~=57.0.0
